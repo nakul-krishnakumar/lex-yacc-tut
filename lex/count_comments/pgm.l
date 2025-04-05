@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
 
    } else {
       printf("Enter tokens: \n");
-      yyin = stdin;
+      yylex();
    }
    yylex();
    printf("Number of comments: %d", cc);
